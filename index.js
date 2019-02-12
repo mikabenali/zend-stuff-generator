@@ -1,10 +1,15 @@
 const fs = require('fs');
+const replace = require('replace-in-file');
 
-fs.writeFile('test.php', 'test', (err) => {
-  if (err) {
-    console.log(err);
-  }
+const options = {
+  files: 'template/collection.template.php',
+  from: 'NAME_VAR',
+  to: 'Film'
+};
 
-  console.log('File created');
-});
+try {
+  replace(options);
+} catch (error) {
+  console.log('error', error);
+}
 
