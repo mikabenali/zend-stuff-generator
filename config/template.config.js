@@ -1,11 +1,11 @@
-export const templatesConfig = [
+exports.templatesConfig  = [
   // Rest
   {
     type: 'rest',
     templateFolder: 'template/rest/',
     outputFolder: 'output/rest/',
     templateFileName: 'collection.template.php',
-    outputFileName: 'Collection.php'
+    outputSuffixFileName: 'Collection.php'
   },
   {
     type: 'rest',
