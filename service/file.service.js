@@ -9,9 +9,9 @@ exports.fileManager = {
       try {
         const changes = replace.sync(options);
         console.info('... ', changes.join(', '));
-        observer.next(true);
+        observer.onNext(true);
       } catch (error) {
-        observer.error(error);
+        observer.onError(error);
       }
     });
   },
@@ -20,9 +20,9 @@ exports.fileManager = {
     return rx.Observable.create(observer => {
       fs.copyFile(source, destination, (error) => {
         if (error) {
-          observer.error(error);
+          observer.onError(error);
         }
-        observer.next(true);
+        observer.onNext(true);
       })
     });
   },
@@ -32,12 +32,12 @@ exports.fileManager = {
       if (fs.existsSync(destination)) {
         fs.unlink(destination, (error) => {
           if (error) {
-            observer.error(error);
+            observer.onError(error);
           }
         })
       }
 
-      observer.next(true);
+      observer.onNext(true);
     });
   }
 };
