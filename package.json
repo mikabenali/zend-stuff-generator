@@ -18,6 +18,6 @@
   "homepage": "https://github.com/mikabenali/zend-apigility-rest-generator#readme",
   "dependencies": {
     "replace-in-file": "^3.4.3",
-    "rxjs": "^6.4.0"
+    "rx": "^4.1.0"
   }
 }

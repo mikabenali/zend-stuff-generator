@@ -1,7 +1,6 @@
 const fileManager = require('./service/file.service').fileManager;
 const config = require('./config/template.config');
-const flatMap = require('rxjs/operators').flatMap();
-const operators = require('rxjs/operators');
+const rx = require('rx');
 
 if (process.argv.length < 3)  {
   throw new Error('You must specifie a name');
@@ -19,10 +18,8 @@ config.templatesConfig.forEach(template => {
   };
 
   fileManager.removeFile(destination)
-    .pipe(
-      flatMap(() => fileManager.copyFile(source, destination)),
-      flatMap(() => fileManager.replaceInFile(options)),
-    )
+    .flatMap(() => fileManager.copyFile(source, destination))
+    .flatMap(() => fileManager.replaceInFile(options))
     .subscribe();
 });
 
