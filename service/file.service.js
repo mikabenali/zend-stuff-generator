@@ -8,7 +8,7 @@ exports.fileManager = {
     return Observable.create(observer => {
       try {
         const changes = replace.sync(options);
-        console.log('... ', changes.join(', '));
+        console.info('... ', changes.join(', '));
         observer.next(true);
       } catch (error) {
         observer.error(error);

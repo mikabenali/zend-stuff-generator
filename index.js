@@ -4,7 +4,7 @@ const flatMap = require('rxjs/operators').flatMap();
 const operators = require('rxjs/operators');
 
 if (process.argv.length < 3)  {
-  // throw new Error('You must specifie a name');
+  throw new Error('You must specifie a name');
 }
 
 const name = process.argv[2];

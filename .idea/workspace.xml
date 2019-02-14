@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b906af49-2dbf-4bdc-9e0b-a4a8771d1090" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/template.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/template.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/file.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/file.service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +54,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="31" />
-          <entry key="js" value="10128" />
+          <entry key="js" value="10243" />
           <entry key="php" value="237" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="10128" />
+          <entry key="JavaScript" value="10243" />
           <entry key="PHP" value="237" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
@@ -78,8 +75,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -100,8 +97,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/service/file.service.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -121,8 +118,8 @@
         <option value="$PROJECT_DIR$/template/test.php" />
         <option value="$PROJECT_DIR$/output/rest/collection.template.php" />
         <option value="$PROJECT_DIR$/config/template.config.js" />
-        <option value="$PROJECT_DIR$/service/file.service.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/service/file.service.js" />
       </list>
     </option>
   </component>
@@ -213,12 +210,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549020572202</updated>
       <workItem from="1549020573777" duration="2993000" />
-      <workItem from="1549990668404" duration="22442000" />
+      <workItem from="1549990668404" duration="22703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25435000" />
+    <option name="totallyTimeSpent" value="25696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1920" height="1057" extended-state="6" />
@@ -320,17 +317,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/file.service.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/service/file.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
