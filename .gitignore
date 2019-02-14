@@ -63,3 +63,5 @@ typings/
 # phpstorm
 .idea/
 .idea/*
+
+output/rest/*.php
