@@ -42,4 +42,14 @@ exports.templatesConfig  = [
     templateFileName: 'resource_factory.template.php',
     outputSuffixFileName: 'ResourceFactory.php'
   },
+
+  // Config
+  {
+    type: 'config',
+    templateFolder: 'template/config/',
+    outputFolder: 'output/config/',
+    templateFileName: 'rest.config.template.php',
+    outputSuffixFileName: 'rest.config.php',
+    isSuffixFullName: true
+  },
 ];

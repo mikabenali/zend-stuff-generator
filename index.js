@@ -10,11 +10,12 @@ const name = process.argv[2];
 
 config.templatesConfig.forEach(template => {
   const source = template.templateFolder + template.templateFileName;
-  const destination = template.outputFolder + name + template.outputSuffixFileName;
+  const fileName = template.isSuffixFullName ? template.outputSuffixFileName : name + template.outputSuffixFileName;
+  const destination = template.outputFolder + fileName;
   const options = {
     files: destination,
-    from: /NAME_VAR/g,
-    to: name
+    from: [/NAME_VAR/g, /NAME_LOWER_VAR/g],
+    to: [name, name.toLowerCase()]
   };
 
   fileManager.removeFile(destination)
