@@ -1,6 +1,7 @@
 const fs = require('fs');
 const replace = require('replace-in-file');
 const rx = require('rx');
+const mkdirp = require('mkdirp');
 
 exports.fileManager = {
 

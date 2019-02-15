@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mikabenali/zend-apigility-rest-generator#readme",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "replace-in-file": "^3.4.3",
     "rx": "^4.1.0"
   }
