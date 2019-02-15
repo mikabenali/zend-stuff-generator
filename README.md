@@ -1,4 +1,4 @@
-# zend-apigility-rest-generator
+# zend-stuff-generator
 
 ## Installation
 
