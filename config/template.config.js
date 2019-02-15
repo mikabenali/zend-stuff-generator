@@ -52,4 +52,36 @@ exports.templatesConfig  = [
     outputSuffixFileName: 'rest.config.php',
     isSuffixFullName: true
   },
+  {
+    type: 'config',
+    templateFolder: 'template/config/',
+    outputFolder: 'output/config/',
+    templateFileName: 'auth.config.template.php',
+    outputSuffixFileName: 'auth.config.php',
+    isSuffixFullName: true
+  },
+  {
+    type: 'config',
+    templateFolder: 'template/config/',
+    outputFolder: 'output/config/',
+    templateFileName: 'doctrine.config.template.php',
+    outputSuffixFileName: 'doctrine.config.php',
+    isSuffixFullName: true
+  },
+  {
+    type: 'config',
+    templateFolder: 'template/config/',
+    outputFolder: 'output/config/',
+    templateFileName: 'route.config.template.php',
+    outputSuffixFileName: 'route.config.php',
+    isSuffixFullName: true
+  },
+  {
+    type: 'config',
+    templateFolder: 'template/config/',
+    outputFolder: 'output/config/',
+    templateFileName: 'service.config.template.php',
+    outputSuffixFileName: 'service.config.php',
+    isSuffixFullName: true
+  },
 ];
