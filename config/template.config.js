@@ -42,10 +42,8 @@ exports.templatesConfig  = [
     templateFileName: 'resource_factory.template.php',
     outputSuffixFileName: 'ResourceFactory.php'
   },
-
-  // Config
   {
-    type: 'config',
+    type: 'rest',
     templateFolder: 'template/config/',
     outputFolder: '/config/',
     templateFileName: 'rest.config.template.php',
@@ -53,7 +51,7 @@ exports.templatesConfig  = [
     isSuffixFullName: true
   },
   {
-    type: 'config',
+    type: 'rest',
     templateFolder: 'template/config/',
     outputFolder: '/config/',
     templateFileName: 'auth.config.template.php',
@@ -61,7 +59,7 @@ exports.templatesConfig  = [
     isSuffixFullName: true
   },
   {
-    type: 'config',
+    type: 'rest',
     templateFolder: 'template/config/',
     outputFolder: '/config/',
     templateFileName: 'doctrine.config.template.php',
@@ -69,7 +67,7 @@ exports.templatesConfig  = [
     isSuffixFullName: true
   },
   {
-    type: 'config',
+    type: 'rest',
     templateFolder: 'template/config/',
     outputFolder: '/config/',
     templateFileName: 'route.config.template.php',
@@ -77,7 +75,7 @@ exports.templatesConfig  = [
     isSuffixFullName: true
   },
   {
-    type: 'config',
+    type: 'rest',
     templateFolder: 'template/config/',
     outputFolder: '/config/',
     templateFileName: 'service.config.template.php',
