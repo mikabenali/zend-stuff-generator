@@ -3,11 +3,26 @@ const config = require('./config/template.config');
 const rx = require('rx');
 const mkdirp = require('mkdirp');
 
-if (process.argv.length < 3)  {
+let name = '';
+let type = 'all';
+
+process.argv.forEach((arg) => {
+  const argExploded = arg.split('=');
+  console.log('arg', argExploded);
+
+  if (argExploded[0] === 'name') {
+    name = argExploded[1];
+  }
+
+  if (argExploded[0] === 'type') {
+    name = argExploded[1];
+  }
+});
+
+if (! name.length)  {
   throw new Error('You must specifie a name');
 }
 
-const name = process.argv[2];
 const folderName = new Date().getTime() + '_' + name;
 
 mkdirp('./output/' + folderName, function(error) {
