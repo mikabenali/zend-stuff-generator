@@ -6,7 +6,7 @@
 
 ## Run
 
-`node index.js [NOM]`
+`node index.js [NAME]`
 
 ## Todo
 
