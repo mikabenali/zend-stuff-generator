@@ -82,4 +82,22 @@ exports.templatesConfig  = [
     outputSuffixFileName: 'service.config.php',
     isSuffixFullName: true
   },
+
+  // Rpc
+  {
+    type: 'rpc',
+    templateFolder: 'template/rpc/',
+    outputFolder: '/rpc/',
+    templateFileName: 'rpc.controller.template.php',
+    outputSuffixFileName: 'controller.php',
+    isSuffixFullName: false
+  },
+  {
+    type: 'rpc',
+    templateFolder: 'template/rpc/',
+    outputFolder: '/rpc/',
+    templateFileName: 'rpc.controller.factory.template.php',
+    outputSuffixFileName: 'controllerFactory.php',
+    isSuffixFullName: false
+  },
 ];

@@ -24,7 +24,7 @@ exports.fileManager = {
           observer.onError(error);
         }
         observer.onNext(true);
-      })
+      });
     });
   },
 
@@ -35,10 +35,16 @@ exports.fileManager = {
           if (error) {
             observer.onError(error);
           }
-        })
+        });
       }
 
       observer.onNext(true);
     });
+  },
+
+  checkIfTypeValid () {
+      return rx.Observable.create(observer => {
+        observer.onNext(true);
+      });
   }
 };
